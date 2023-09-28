@@ -220,7 +220,7 @@ article p {
 }
 
 .aboutimagegrid img {
-    width: 175px;
+    width: 300px;
 }
 
 @media only screen and (max-width:1400px) {
@@ -234,9 +234,7 @@ article p {
         margin: auto;
         padding: 0;
     }
-    .aboutimagegrid img {
-        width: 300px;
-    }
+
 }
 
 @media only screen and (max-width:1023px) {
