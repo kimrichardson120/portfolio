@@ -207,17 +207,36 @@ article p {
 
 .aboutpic {
     max-width: 300px;
+    max-height: 388px;
 }
 
 .aboutimagegrid {
     display: flex;
     justify-content: center;
     gap: 8px;
-    padding: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .aboutimagegrid img {
     width: 175px;
+}
+
+@media only screen and (max-width:1400px) {
+    article {
+        max-width: 80%;
+    }
+    .aboutcontent {
+        display: block;
+    }
+    .abouttext {
+        margin: auto;
+        padding: 0;
+    }
+    .aboutimagegrid img {
+        width: 300px;
+    }
 }
 
 @media only screen and (max-width:1023px) {
@@ -250,8 +269,6 @@ article p {
 }
 
 @media only screen and (max-width:810px) {
-    
-    
     :root {
         --project-width: 300px;
     } 
@@ -293,8 +310,6 @@ article p {
     .container {
         max-width: 320px;
     }
-    
-    
     
     :root {
         --project-width: 350px;
