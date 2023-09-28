@@ -67,9 +67,6 @@ body {
 }  
 
 
-
-    
-
 .welcome {
     color: #fff;
     width: 100%;
@@ -183,6 +180,46 @@ footer > a {
    font-size: 1.5rem;
 }
 
+article {
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+article h1 {
+    font-size: 3rem;
+}
+
+article p {
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.aboutcontent {
+    display: flex;
+}
+
+.abouttext {
+    margin-left: 80px;
+    padding: 16px;
+}
+
+.aboutpic {
+    max-width: 300px;
+}
+
+.aboutimagegrid {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 80px;
+}
+
+.aboutimagegrid img {
+    width: 175px;
+}
+
 @media only screen and (max-width:1023px) {
     :root {
         --project-width: 400px;
@@ -209,8 +246,6 @@ footer > a {
     .container {
         max-width: 600px;
     }
-    
-    
 
 }
 
