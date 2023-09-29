@@ -11,6 +11,11 @@ body {
 
 }
 
+h3 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
 .site-header {
     background-color: #81D2BB;
     color: #fff; 
@@ -195,8 +200,9 @@ article > h1 {
 }
 
 article > h3 {
-    margin-bottom: 175px;
+    margin-bottom: 120px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 article p {
@@ -215,8 +221,9 @@ article > section > h2 {
     font-weight: 700;
 }
 
-article > section h3 {
+article > section h4 {
     margin-bottom: 0px;
+    font-size: 1.17rem;
 }
 
 article > section ul {
@@ -268,7 +275,6 @@ article > section li {
 .projecthero {
     display: flex;
 }
-
 
 .herotext {
     padding-right: 80px;
