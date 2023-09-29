@@ -124,7 +124,7 @@ body {
 .project > .details {
     width: var(--project-width);
     height: var(--project-height);
-    background-color: rgba(247, 90, 86, 0.7);
+    background-color: rgba(247, 90, 86, 0.8);
     transition-duration: .25s;
     position: absolute;
     top: 0;
@@ -146,11 +146,14 @@ body {
 }
 
 .details > h3 {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+    font-size: 1.5rem;
 }
 
 .details > p {
-    margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 1.65rem;
 }
 
 .cover > img {
@@ -181,19 +184,49 @@ footer > a {
 }
 
 article {
-    max-width: 60%;
+    max-width: 45%;
     margin: auto;
-    text-align: center;
 }
 
-article h1 {
+article > h1 {
     font-size: 3rem;
+    margin-bottom: 20px; 
+    text-align: center;  
+}
+
+article > h3 {
+    margin-bottom: 175px;
+    text-align: center;
 }
 
 article p {
     text-align: left;
     font-size: 1.25rem;
     line-height: 1.75rem;
+}
+
+article > section {
+    margin-bottom: 48px;
+}
+
+article > section > h2 {
+    font-size: 1.75rem;
+    color: rgb(247, 90, 86);
+    font-weight: 700;
+}
+
+article > section h3 {
+    margin-bottom: 0px;
+}
+
+article > section ul {
+    padding-inline-start: 0px;
+    margin-top: 8px;
+}
+
+article > section li {
+    list-style-type: none; 
+    margin-bottom: 8px;   
 }
 
 .aboutcontent {
@@ -210,19 +243,42 @@ article p {
     max-height: 388px;
 }
 
-.aboutimagegrid {
+.imagegrid {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.imagegridoverflow {
+    flex-wrap: nowrap;
+}
+
+.aboutimagegrid {
     padding-top: 60px;
     padding-bottom: 60px;
-    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .aboutimagegrid img {
     width: 300px;
 }
 
+.projecthero {
+    display: flex;
+}
+
+
+.herotext {
+    padding-right: 80px;
+    font-size: 3rem;
+    line-height: 3.75rem;
+}
+
+.center {
+    text-align: center;
+}
 @media only screen and (max-width:1400px) {
     article {
         max-width: 80%;
@@ -242,7 +298,6 @@ article p {
         --project-width: 400px;
     }    
     
-
 }
 
 @media only screen and (max-width:926px) {
