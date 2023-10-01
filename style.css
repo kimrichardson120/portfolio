@@ -302,7 +302,7 @@ article > section li {
     flex-wrap: nowrap;
 }
 
-.imagegridoverflow > img {
+.imagegridoverflow img {
     max-width: 480px;
 }
 
@@ -417,7 +417,7 @@ article > section li {
     .heropic {
         margin: auto;
     }
-    .imagegridoverflow > img {
+    .imagegridoverflow img {
         max-width: 350px;
     }
 }
