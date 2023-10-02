@@ -248,7 +248,7 @@ article img {
 }
 
 article video {
-    max-width: 800px;
+    max-width: 600px;
 }
 
 article > section {
@@ -336,6 +336,12 @@ article > section li {
 .center {
     text-align: center;
 }
+
+.centercontainer {
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width:1400px) {
     article {
         max-width: 80%;
@@ -471,6 +477,10 @@ article > section li {
         grid: repeat(4, calc(var(--project-height) + var(--project-spacing))) /
          auto-flow calc(var(--project-width) + var(--project-spacing));
         
+    }
+
+    .project > .details {
+        opacity: 1;
     }
     
 }
