@@ -73,6 +73,11 @@ p {
     font-size: 2rem;
 }
 
+.site-header > div:nth-child(2) img {
+    height: 40px;
+    padding-top: 20px;
+}
+
 .site-header > div:nth-child(3) {
     text-align: right;
 }
@@ -361,10 +366,11 @@ article > section li {
 }
 
 @media only screen and (max-width:926px) {
-    .site-header > div:nth-child(2) {
-        line-height: 1.85rem;
-        padding-top: 4px;
-    } 
+    .site-header > div:nth-child(2) img {
+        height: 30px;
+        padding-top: 24px;
+    }
+
     .contents > h1 {
         font-size: 4.5rem;
         margin-bottom: 24px;
@@ -420,13 +426,12 @@ article > section li {
     .imagegridoverflow img {
         max-width: 350px;
     }
+    .site-header > div:nth-child(2) img {
+        height: 20px;
+    }
 }
 
-@media only screen and (max-width:620px) {
-    .site-header > div:nth-child(2) {
-        line-height: 70px;
-        padding-top: 0px;
-    }   
+@media only screen and (max-width:620px) { 
     
     .site-header > div:nth-child(2) > a:nth-child(1) {
         display: none;
