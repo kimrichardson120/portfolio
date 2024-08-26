@@ -15,6 +15,12 @@ h1 {
     color: #333333
 }
 
+h2 {
+    font-size: 2.25rem;
+    color: #606060;
+    font-weight: 300;
+}
+
 h3 {
     font-size: 1.5rem;
     line-height: 2.5rem;
@@ -118,8 +124,9 @@ p {
     height: 95vh;
 }
 
-.welcometext {
-    color: #ffffff;
+.namecontainer {
+    margin-left: 64px;
+    margin-bottom: 100px;
 }
 
 .container {
@@ -136,13 +143,23 @@ p {
 
 .contents > h1 {
     font-size: 5rem;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+    color: #606060;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contents > p {
     font-size: 3.875rem;
     margin: 0;
+    color:rgb(247, 90, 86);
 }
+
+.gridtitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
 
 .project {
     position: relative;
@@ -200,7 +217,6 @@ p {
     grid: repeat(2, calc(var(--project-height) + var(--project-spacing))) /
      auto-flow calc(var(--project-width) + var(--project-spacing));
     justify-content: center;
-    margin-top: 48px;
 }
 
 footer {
