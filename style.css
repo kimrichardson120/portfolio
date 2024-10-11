@@ -153,6 +153,10 @@ p {
     justify-content: center;
 }
 
+.smalltopspacing {
+    margin-top: 8px;
+}
+
 footer {
     text-align: center;
     padding-top: 40px;
