@@ -418,12 +418,16 @@ article > section li {
 
     .contents > h1 {
         font-size: 3.5rem;
-        margin-bottom: 24px;
+        margin-bottom: 8px;
     }
     
     .contents > p {
         font-size: 2.25rem;
         margin: 0;
+    }
+
+    .namecontainer {
+        margin-left: 24px;
     }
 
     .container {
@@ -441,7 +445,7 @@ article > section li {
     }
 
     .project > .details {
-        opacity: 1;
+        opacity: 0;
     }
     
 }
